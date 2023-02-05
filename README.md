@@ -3,6 +3,8 @@ dork ile açık bulmaya yarayan bir kod
 
 
 scan_dorks(['inurl:index.php?id=', 'inurl:product.php?id=', 'inurl:article.php?id='], pages=2) bu bölüme dorklar yazılır
+
+
 if any(keyword in content.lower() for keyword in ('sql injection', 'xss vulnerability', 'command injection', 'remote code execution')):  bu bölüme aranacak olan kelimeler
 
 eğer doğru kelime ve doğru anahar kelime (ya da ifadeler) girilirse sonuç alabilirsiniz. Açık bulunursa link ile birlikte açık bulundu ifadesi dönecektir. Aynı şekilde bulunamazsa da bulunamadı ifadesi dönecektir.
