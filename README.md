@@ -1,5 +1,5 @@
 # acik-bulucu
-dork ile açık bulmaya yarayan bir kod
+dork ile web sitelerinden zafiyet bulmaya yarar
 
 
 scan_dorks(['inurl:index.php?id=', 'inurl:product.php?id=', 'inurl:article.php?id='], pages=2) bu bölüme dorklar yazılır
